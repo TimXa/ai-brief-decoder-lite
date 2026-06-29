@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "AI Brief Decoder Lite",
+  "description": "Decode client briefs into structured delivery notes.",
+  "version": "0.1.0",
+  "permissions": ["clipboardWrite"],
+  "host_permissions": ["http://localhost:8000/*", "http://127.0.0.1:8000/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "AI Brief Decoder"
+  }
+}
